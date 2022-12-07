@@ -12,3 +12,13 @@ draggables.forEach(draggable => {
         draggable.classList.remove('dragging')
     })
 })
+
+containers.forEach(container => {
+    container.addEventListener('dragover', (e) => {
+        // Change the default disabled cursor to enable cursor
+        e.preventDefault()
+
+        const draggable = document.querySelector('.dragging')
+        container.appendChild(draggable)
+    })
+})
