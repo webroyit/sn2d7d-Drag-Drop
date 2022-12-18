@@ -1,4 +1,5 @@
 # Drag and Drop
+Simple Drag and Drop. The template is from Web Dev Simplified youtube channel.
 
 ## Notes
 - 'defer' to load the script file before HTML
